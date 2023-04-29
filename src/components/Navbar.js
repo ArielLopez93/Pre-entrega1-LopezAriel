@@ -1,21 +1,22 @@
+import { NavLink } from "react-router-dom";
 import Cartwidget from "./CartWidget";
 
 function Navbar () {
     return(
-       <> 
+    
        <header>
+        <NavLink to="/">
        <h1>BIENVENIDOS</h1>
+        </NavLink>
        <nav>
-        <a href="#">Home</a>
-        <a href="#">Catalogo</a>
-        <a href="#">Nosotros</a>
-        <a href="#">
+        <NavLink to ="/category/home">Home</NavLink>
+        <NavLink to ="/category/catalogo">Catalogo</NavLink>
+
+        <NavLink to ="/Carrito">
          <Cartwidget/>
-        </a>
+        </NavLink>
         </nav>
         </header>
-
-       </>
     )
 }
 

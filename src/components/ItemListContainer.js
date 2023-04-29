@@ -1,10 +1,32 @@
-const Main = (props) => {
-    return (
-      <main>
-        <h2>Nombre:{props.nombre}</h2>
-        <p>Edad:{props.edad}</p>
-      </main>
+import { useEffect, useState } from "react"
+import ItemList from "./ItemList"
+import Products from "../Products.json"
+
+const ItemListContainer =() =>{
+
+    const [estado, setestado] = useState([])
+
+   useEffect( ()=>{
+    const pedido = new Promise((resolve, reject) => {
+        setTimeout( ()=>{
+        resolve(Products)
+        },2000) 
+    })
+    pedido
+    .then((resultado)=>{
+        setestado(resultado)
+
+    })
+    .catch((error)=>{
+
+    })
+   },[])
+
+    
+
+    return(
+        <ItemList products={estado}/>
     )
-  }
-  
-  export default Main;
+}
+
+export default ItemListContainer
