@@ -1,11 +1,11 @@
-import { useEffect } from "react"
+import React from "react"
 
- const Item = () =>{
+ const Item = ({info}) =>{
     return(
-       <div>
-        <h2>ITEM</h2>
-        
-       </div>
+       <a href="">
+         <img src={info.image} alt=""/>
+         <p>{info.title}</p>
+       </a>
     )
  }
 

@@ -14,7 +14,7 @@ code {
 
 
 a{
-  color:white;
+  color:rgb(228, 14, 14);
   text-decoration: none;
   padding: 1rem;
 }
@@ -27,7 +27,7 @@ header {
 
 
  h1{
-  color: white;
+  color: rgb(250, 244, 244);
  }
 
  main{

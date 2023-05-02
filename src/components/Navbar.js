@@ -9,8 +9,8 @@ function Navbar () {
        <h1>BIENVENIDOS</h1>
         </NavLink>
        <nav>
-        <NavLink to ="/category/Peliculas">Peliculas</NavLink>
-        <NavLink to ="/category/Series">Series</NavLink>
+        <NavLink to ="/category/peliculas">Peliculas</NavLink>
+        <NavLink to ="/category/series">Series</NavLink>
 
         <NavLink to ="/Carrito">
          <Cartwidget/>
