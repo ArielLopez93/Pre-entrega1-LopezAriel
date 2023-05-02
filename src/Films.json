@@ -1,0 +1,46 @@
+[
+  
+    {
+      "id": 1,
+      "title": "El Gran Hotel Budapest",
+      "category": "peliculas",
+      "sinopsis": "Un conserje de un hotel de lujo y su joven aprendiz se ven envueltos en una trama de asesinato y robo durante la tumultuosa época de entreguerras en Europa.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/The_Grand_Budapest_Hotel_movie_logo.png/640px-The_Grand_Budapest_Hotel_movie_logo.png"
+    },
+    {
+      "id": 2,
+      "title": "Titanic",
+      "category": "peliculas",
+      "sinopsis": "Una joven aristócrata se enamora de un joven y apuesto artista a bordo del transatlántico más grande del mundo, pero su romance se ve amenazado por el trágico hundimiento del barco.",
+      "image": "https://i.blogs.es/4a9cb1/titanic/450_1000.jpeg"
+    },
+    {
+      "id": 3,
+      "title": "Interestelar",
+      "category": "peliculas",
+      "sinopsis": "Un grupo de exploradores y científicos viajan a través de un agujero de gusano en el espacio en busca de un nuevo hogar para la humanidad.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUkS874p5UeuBRTWcM1qRcNE-K7WgLf0DCim1HuygH&s"
+    },
+  
+    {
+      "id": 4,
+      "title": "Breaking Bad",
+      "category": "series",
+      "sinopsis": "Un profesor de química de secundaria se convierte en productor de drogas para asegurar el futuro de su familia después de ser diagnosticado con cáncer.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxBgApVEaQ4QnlCuV94Md75k4eaLvZY5TvxlFgIofdPg&s"
+    },
+    {
+      "id": 5,
+      "title": "Juego de Tronos",
+      "category": "series",
+      "sinopsis": "En un mundo de fantasía medieval, varias familias nobles luchan por el control del Trono de Hierro y el dominio sobre los Siete Reinos.",
+      "image": "https://fotografias.lasexta.com/clipping/cmsimages02/2022/04/04/4CC8F772-1EFE-43D5-932F-3D26176F5FF8/casas-juego-tronos_98.jpg?crop=1000,563,x0,y3&width=1900&height=1069&optimize=low&format=webply"
+    },
+    {
+      "id": 6,
+      "title": "Stranger Things",
+      "category": "series",
+      "sinopsis": "En los años 80 en un pequeño pueblo de Indiana, un grupo de amigos se une para investigar la desaparición de uno de ellos y descubren un mundo oscuro y peligroso.",
+      "image": "https://cloudfront-us-east-1.images.arcpublishing.com/elespectador/FQREIWXQNBEGTMXVV2E26YWT5U.jpg"
+    }
+  ]

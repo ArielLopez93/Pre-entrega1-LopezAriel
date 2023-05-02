@@ -14,9 +14,13 @@ code {
 
 
 a{
-  color:rgb(228, 14, 14);
+  color:rgb(241, 233, 233);
   text-decoration: none;
   padding: 1rem;
+}
+
+p{
+  color: black;
 }
 
 header {
@@ -32,4 +36,10 @@ header {
 
  main{
   text-align: center;
+ }
+
+
+ img{
+  height: 200px;
+  width: 300px;
  }
