@@ -3,7 +3,7 @@ const ItemDetailContainer =() =>{
     return(
         <div>
 
-        <h2>Detalle PRoducto</h2>
+        <h2>Detalle Producto</h2>
   
         {/* picsum */}
         <img src="https://picsum.photos/200/300" alt=""/>
