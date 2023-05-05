@@ -70,5 +70,6 @@ header {
 
 
 .Color__boton{
-  color: black;
+  color: white;
+  background-color: black;
 }

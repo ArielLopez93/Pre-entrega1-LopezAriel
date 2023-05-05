@@ -1,15 +1,34 @@
+import { useEffect, useState } from "react"
+import ItemDetail from "./ItemDetail"
+import { useParams } from "react-router-dom"
+import films from "../Films.json"
+
+
 
 const ItemDetailContainer =() =>{
-    return(
-        <div>
+    const [estado, setEstado] = useState({})
+  const {detalleId} = useParams()
+ 
+ useEffect( ()=>{
+  const pedido = new Promise((resolve, reject) => {
+      setTimeout( ()=>{
+      resolve(films)
+      },1000) 
+  })
+    pedido.then((res)=>{
+        const filtro = res.find (peliculas =>peliculas.id == detalleId)
+        setEstado (filtro)
+    }
 
-        <h2>Detalle Producto</h2>
-  
-        {/* picsum */}
-        <img src="https://picsum.photos/200/300" alt=""/>
-  
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto omnis est delectus eum aliquam nam excepturi vel veritatis. Quis nulla, voluptas a vel laudantium cumque! Non, veniam! Magni, earum saepe.</p>
-        </div>
+    )
+
+
+},[detalleId])
+
+    
+
+    return(
+        <ItemDetail estado={estado}/>
     )
 }
 
