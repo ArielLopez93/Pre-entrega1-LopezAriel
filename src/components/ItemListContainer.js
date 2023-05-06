@@ -28,7 +28,9 @@ const ItemListContainer =() =>{
     
 
     return(
+        <section>
         <ItemList estado={estado}/>
+        </section>
     )
 }
 

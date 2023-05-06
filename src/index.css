@@ -73,3 +73,9 @@ header {
   color: white;
   background-color: black;
 }
+
+
+section{
+  display: flex;
+  flex-wrap: wrap;
+}

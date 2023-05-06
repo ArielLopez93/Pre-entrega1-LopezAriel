@@ -15,7 +15,6 @@ function App() {
         <Route path="/" element ={<ItemListContainer/>}/>
         <Route path="/category/:categoriaId" element ={<ItemListContainer/>}/>
         <Route path="/item/:detalleId" element ={<ItemDetailContainer/>}/>
-
       </Routes>
 
       <Main nombre=" Ariel Lopez" edad = " 30"/>
