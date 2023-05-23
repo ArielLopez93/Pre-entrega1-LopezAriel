@@ -11,8 +11,7 @@ function Navbar () {
        <nav>
         <NavLink to ="/category/peliculas">Peliculas</NavLink>
         <NavLink to ="/category/series">Series</NavLink>
-
-        <NavLink to ="/Carrito">
+        <NavLink to ="/Cart">
          <Cartwidget/>
         </NavLink>
         </nav>

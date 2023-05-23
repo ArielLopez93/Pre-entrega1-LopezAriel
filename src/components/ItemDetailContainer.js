@@ -2,6 +2,7 @@ import { useEffect, useState } from "react"
 import ItemDetail from "./ItemDetail"
 import { useParams } from "react-router-dom"
 import films from "../Films.json"
+import ItemCount from "./ItemCount"
 
 
 
@@ -29,6 +30,7 @@ const ItemDetailContainer =() =>{
 
     return(
         <ItemDetail estado={estado}/>
+        
     )
 }
 

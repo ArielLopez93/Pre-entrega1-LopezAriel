@@ -2,7 +2,9 @@ import React from "react"
 import { Link } from "react-router-dom"
 
 
+
  const Item = ({info}) =>{
+   
     return(
       <div className="cards">
       <article className="card">    
