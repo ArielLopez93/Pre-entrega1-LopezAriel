@@ -85,3 +85,12 @@ section{
   color:black
   
 }
+
+.itemCart{
+  display: flex;
+  border-bottom: 1px solido blue;
+  max-width: 500px;
+  margin: 1rem auto;
+}
+
+
