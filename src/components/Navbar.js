@@ -6,7 +6,7 @@ function Navbar () {
     
        <header>
         <NavLink to="/">
-       <h1>BIENVENIDOS</h1>
+       <h1>MOVIETIME</h1>
         </NavLink>
        <nav>
         <NavLink to ="/category/peliculas">Peliculas</NavLink>
